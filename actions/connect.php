@@ -2,7 +2,7 @@
 
 $con =  mysqli_connect("localhost","root","","votingsystem");
 if($con){
-    echo "connection successful";
+    //echo "connection successful";
 }else{
     die(mysqli_error($con));  
 }
